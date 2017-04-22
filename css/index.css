@@ -1,0 +1,64 @@
+#canvas {
+  border:5px solid #000000; /* #0000FF */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+#body{ 
+	background-image: url("res/background.jpg");
+}
+
+#container{
+  color: black;
+  border: 1px solid black;
+  position: fixed;
+  top: 15%;
+  left: 68%;
+  width:125px;
+  
+}
+
+#fps { 
+  color: black;
+  border: 1px solid black;
+  position:relative;
+
+}
+
+#vidas{
+  color: black;
+  border: 1px solid black;
+  position:relative;
+}
+
+#puntuacion{
+  color: black;
+  border: 1px solid black;
+    position:relative;
+}
+
+/*Main page (not the game)*/
+
+#body{ 
+  background-image: url("res/background.jpg");
+}
+#titulo {
+  color: black;
+  border: 1px solid black;
+  font-size: 50;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+#nombre {
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
