@@ -1,4 +1,4 @@
-# pacman
+# Pacman
 
 Pacman para la asignatura de DAWE, singleplayer.
 
