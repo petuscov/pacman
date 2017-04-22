@@ -77,7 +77,13 @@ function onRequest(request,response){
             readStream.pipe(response);
             break;
         case "/" :
-            filePath = path.join(__dirname, '../main.html');
+            filePath = path.join(__dirname, '../index.html');
+            response.writeHead(200, {"Content-Type": "text/html"});
+            readStream = fileSystem.createReadStream(filePath);
+            readStream.pipe(response);
+            break;
+        case "/index.html" :
+            filePath = path.join(__dirname, '../index.html');
             response.writeHead(200, {"Content-Type": "text/html"});
             readStream = fileSystem.createReadStream(filePath);
             readStream.pipe(response);
